@@ -1,0 +1,31 @@
+* Identity
+** SSH Keys
+
+** NixOS user bootstrap
+#+begin_src nix
+{
+  inputs = {
+    id.url = "github:Dietr1ch/id";
+  };
+
+  outputs =
+    {
+      id,
+      ...
+    }@attrs:
+    {
+      nixosConfigurations = {
+
+        "my_machine" = nixpkgs.lib.nixosSystem {
+          system = "x86_64-linux";
+          modules = [
+            id.users # ~/Projects/id/users/default.nix
+
+            ./configuration.nix
+          ];
+        };
+
+      };
+    };
+}
+#+end_src
