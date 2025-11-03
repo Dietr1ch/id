@@ -4,8 +4,11 @@
   outputs =
     { self }:
     {
-      users = import ./users;
+      users = import ./users; # ./users/default.nix
       users-dietr1ch = import ./users/dietr1ch.nix;
+      users-ninis = import ./users/ninis.nix;
+      users-adaroch = import ./users/adaroch.nix;
+      users-ivonne = import ./users/ivonne.nix;
 
       locations-ca-kicking_horse = import ./locations/ca/kicking_horse.nix;
       locations-ca-whistler = import ./locations/ca/whistler.nix;
