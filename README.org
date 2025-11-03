@@ -20,6 +20,7 @@
           system = "x86_64-linux";
           modules = [
             id.users # ~/Projects/id/users/default.nix
+            id.locations-us-squaw # ~/Projects/id/locations/us/squaw.nix
 
             ./configuration.nix
           ];
