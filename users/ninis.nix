@@ -4,7 +4,7 @@
       ninis = {
         description = "Denisse Daroch";
 
-        # Generated with mkpasswd --method 'sha-512'
+        # Generated with mkpasswd --method=sha-512
         initialHashedPassword = "$6$2.oy7kYfuss/0R2y$XtHYnCST.ZhM9TdLCrrENXNU0Dkpdn01nsnRvDJGQOmKS11eHYO4oF.g0RfG4rU8n9YIlMdCMQ0k3vZS2SYB7/";
 
         uid = 1777;

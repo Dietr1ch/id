@@ -4,7 +4,7 @@
       ivonne = {
         description = "Ivonne González";
 
-        # Generated with mkpasswd --method 'sha-512'
+        # Generated with mkpasswd --method=sha-512
         initialHashedPassword = "$6$89CY2nGxh.fa0v/E$QTPHc45etEOZIgr6nzqQ5i0wesSKhS9H0DJLBdm1/8jsJ0akb7IpVV1b1T1dkUkNDlROnOEnt.b6IPe2xivNY0";
 
         uid = 1999;
