@@ -11,8 +11,10 @@
         isNormalUser = true;
 
         extraGroups = [
-          "users"
+          "users" # Regular users
           "phys" # Users with physical access
+
+          "libvirtd" # Manage libvirt VMs
         ];
 
         openssh.authorizedKeys.keys = [

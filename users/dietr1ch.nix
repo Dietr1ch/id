@@ -12,8 +12,10 @@
 
         extraGroups = [
           "wheel" # Enable ‘sudo’ for the user.
-          "users"
+          "users" # Regular users
           "phys" # Users with physical access
+
+          "libvirtd" # Manage libvirt VMs
         ];
 
         openssh.authorizedKeys.keys = [

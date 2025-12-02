@@ -11,7 +11,7 @@
         isNormalUser = true;
 
         extraGroups = [
-          "users"
+          "users" # Regular users
         ];
 
         openssh.authorizedKeys.keys = [
