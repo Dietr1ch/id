@@ -28,4 +28,28 @@
       };
     };
   };
+
+  services = {
+    # https://search.nixos.org/options?channel=unstable&query=services.postgresql
+    postgresql = {
+      ensureUsers = [
+        {
+          name = "ninis";
+          ensureDBOwnership = true;
+          ensureClauses = {
+            # Grants superuser permissions
+            superuser = false;
+
+            # Grants createrole permissions
+            createrole = true;
+            # Grants createdb permissions
+            createdb = true;
+          };
+        }
+      ];
+      ensureDatabases = [
+        "ninis"
+      ];
+    };
+  };
 }
