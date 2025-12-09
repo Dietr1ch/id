@@ -23,7 +23,7 @@
           "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJwzvK1/wSXxLikDSrXZ23WEzDHv7koRbxuvt0czzocH dietr1ch@raft"
           "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKxM4zgsCOwr6J7Ci1PKyUoI2CL4eL4QSrR6LnfSILXz dietr1ch@nuerburgring"
 
-          "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMtQhzl7ihtsn0LMXhcKcjLnqQpoGS+D2vwz4OMkTBck dietr1ch@sigabrt"
+          "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIA2DTbQTAQrBEH7mkRu2R9kZ7vwViKqUr7eYQsJV6203 dietr1ch@sigabrt"
           "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMtQhzl7ihtsn0LMXhcKcjLnqQpoGS+D2vwz4OMkTBck dietr1ch@sigterm"
         ];
       };
