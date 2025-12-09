@@ -12,6 +12,8 @@
 
         extraGroups = [
           "users" # Regular users
+
+          "gamemode" # Run games
         ];
 
         openssh.authorizedKeys.keys = [

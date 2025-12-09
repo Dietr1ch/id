@@ -14,6 +14,7 @@
           "users" # Regular users
           "phys" # Users with physical access
 
+          "gamemode" # Run games
           "libvirtd" # Manage libvirt VMs
         ];
 
