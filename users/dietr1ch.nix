@@ -18,6 +18,7 @@
           "audio" # Allow playing music
           "gamemode" # Run games
           "libvirtd" # Manage libvirt VMs
+          "wireshark" # Allow capturing network traffic
         ];
 
         openssh.authorizedKeys.keys = [
