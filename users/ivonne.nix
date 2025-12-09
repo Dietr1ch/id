@@ -13,6 +13,7 @@
         extraGroups = [
           "users" # Regular users
 
+          "audio" # Allow playing music
           "gamemode" # Run games
         ];
 
