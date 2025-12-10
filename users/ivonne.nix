@@ -1,3 +1,5 @@
+{ config, ... }:
+
 {
   users = {
     users = {
@@ -15,6 +17,8 @@
 
           "audio" # Allow playing music
           "gamemode" # Run games
+
+          config.services.kubo.group # Allow using IPFS/kubo
         ];
 
         openssh.authorizedKeys.keys = [

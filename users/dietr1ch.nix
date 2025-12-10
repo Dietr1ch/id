@@ -1,3 +1,5 @@
+{ config, ... }:
+
 {
   users = {
     users = {
@@ -19,6 +21,8 @@
           "gamemode" # Run games
           "libvirtd" # Manage libvirt VMs
           "wireshark" # Allow capturing network traffic
+
+          config.services.kubo.group # Allow using IPFS/kubo
         ];
 
         openssh.authorizedKeys.keys = [
