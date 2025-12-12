@@ -25,7 +25,7 @@
         ];
 
         openssh.authorizedKeys.keys = [
-          # "ssh-ed25519 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA adaroch@flock"
+          "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGWLEr5BU+k4e75pXIYKvQ5AobbKloRn0K0ZW9TAyIf3 adaroch@flock"
           "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKcrYgoJkPxBIgPg798k0ZUE0fv+8CvqpqMwyHTZ8PLd adaroch@nuerburgring"
 
           # "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIP/CxvI2UR4RdDUR3qim5J53PPyRNHWY2IANze8RtRw7 arnal@LAPTOP-B9UL4OIE" # G14 Old (2022-06)
