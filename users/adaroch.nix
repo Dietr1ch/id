@@ -20,6 +20,7 @@
           "gamemode" # Run games
           "libvirtd" # Manage libvirt VMs
           "wireshark" # Allow capturing network traffic
+          "openrazer" # Allow interacting with the openrazer daemon
 
           config.services.kubo.group # Allow using IPFS/kubo
         ];

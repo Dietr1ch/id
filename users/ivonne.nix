@@ -17,6 +17,7 @@
 
           "audio" # Allow playing music
           "gamemode" # Run games
+          "openrazer" # Allow interacting with the openrazer daemon
 
           config.services.kubo.group # Allow using IPFS/kubo
         ];
