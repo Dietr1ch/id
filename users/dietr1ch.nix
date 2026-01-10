@@ -59,6 +59,12 @@
       ensureDatabases = [
         "dietr1ch"
       ];
-    };
-  };
+    }; # ..services.postgresql
+
+    postgresqlBackup = {
+      databases = [
+        "dietr1ch"
+      ];
+    }; # ..services.postgresqlBackup
+  }; # ..services
 }
