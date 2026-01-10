@@ -66,5 +66,14 @@
         "dietr1ch"
       ];
     }; # ..services.postgresqlBackup
+
+    nginx = {
+      virtualHosts = {
+        # FIXME: Announce the dietr1ch.$MACHINE.local subdomain on avahi
+        "dietr1ch.${config.networking.hostName}.local" = {
+          root = "${config.users.users.dietr1ch.home}/Public";
+        };
+      };
+    }; # ..services.nginx
   }; # ..services
 }
