@@ -57,6 +57,6 @@
       ensureDatabases = [
         "adaroch"
       ];
-    };
-  };
+    }; # ..services.postgresql
+  }; # ..services
 }

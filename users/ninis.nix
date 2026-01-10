@@ -58,6 +58,6 @@
       ensureDatabases = [
         "ninis"
       ];
-    };
-  };
+    }; # ..services.postgresql
+  }; # ..services
 }
