@@ -58,5 +58,11 @@
         "adaroch"
       ];
     }; # ..services.postgresql
+
+    postgresqlBackup = {
+      databases = [
+        "adaroch"
+      ];
+    }; # ..services.postgresqlBackup
   }; # ..services
 }

@@ -59,5 +59,11 @@
         "ninis"
       ];
     }; # ..services.postgresql
+
+    postgresqlBackup = {
+      databases = [
+        "ninis"
+      ];
+    }; # ..services.postgresqlBackup
   }; # ..services
 }
