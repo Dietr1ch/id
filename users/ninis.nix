@@ -11,6 +11,7 @@
 
         uid = 1777;
         isNormalUser = true;
+        linger = true;
 
         extraGroups = [
           "users" # Regular users

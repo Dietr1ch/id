@@ -11,6 +11,7 @@
 
         uid = 1337;
         isNormalUser = true;
+        linger = true;
 
         extraGroups = [
           "wheel" # Enable ‘sudo’ for the user.
