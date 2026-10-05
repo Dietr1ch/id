@@ -10,6 +10,14 @@
       users-adaroch = import ./users/adaroch.nix;
       users-ivonne = import ./users/ivonne.nix;
 
+      hosts = import ./hosts; # ./hosts/default.nix
+      hosts-flock = import ./hosts/flock.nix;
+      hosts-nuerburgring = import ./hosts/nuerburgring.nix;
+      hosts-raft = import ./hosts/raft.nix;
+      hosts-sigabrt = import ./hosts/sigabrt.nix;
+      hosts-sigill = import ./hosts/sigill.nix;
+      hosts-sigterm = import ./hosts/sigterm.nix;
+
       locations-ca-kicking_horse = import ./locations/ca/kicking_horse.nix;
       locations-ca-whistler = import ./locations/ca/whistler.nix;
       locations-ch-mythenregion = import ./locations/ch/mythenregion.nix;

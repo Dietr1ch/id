@@ -18,6 +18,8 @@
           "users" # Regular users
           "phys" # Users with physical access
 
+          "i2c"
+
           "audio" # Allow playing music
           "gamemode" # Run games
           "libvirtd" # Manage libvirt VMs
