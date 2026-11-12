@@ -8,6 +8,8 @@
     users-adaroch = import ./users/adaroch.nix;
     users-ivonne = import ./users/ivonne.nix;
 
+    agents = import ./agents/default.nix;
+
     hosts = import ./hosts; # ./hosts/default.nix
     hosts-flock = import ./hosts/flock.nix;
     hosts-nuerburgring = import ./hosts/nuerburgring.nix;
