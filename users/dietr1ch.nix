@@ -1,4 +1,4 @@
-{ config, ... }:
+{ config, lib, ... }:
 
 {
   users = {
@@ -72,9 +72,17 @@
 
     nginx = {
       virtualHosts = {
-        # FIXME: Announce the dietr1ch.$MACHINE.local subdomain on avahi
-        "dietr1ch.${config.networking.hostName}.local" = {
-          root = "${config.users.users.dietr1ch.home}/Public";
+        # dietr1ch.$HOSTNAME.$DOMAIN
+        "dietr1ch.${config.networking.hostName}.${config.networking.domain}" = {
+          serverAliases =
+            [ ]
+            ++ lib.optionals (config.networking.domain != "local") [
+              # dietr1ch.$HOSTNAME.local
+              # TODO: Announce the dietr1ch.$MACHINE.local on avahi
+              "dietr1ch.${config.networking.hostName}.local"
+            ];
+
+          root = "/srv/web/users/dietr1ch";
         };
       };
     }; # ..services.nginx
